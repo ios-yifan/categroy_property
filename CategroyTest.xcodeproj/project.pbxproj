@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A48CA68B26F094CC0059C423 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CA68A26F094CC0059C423 /* main.m */; };
+		A48CA69326F094E30059C423 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CA69226F094E30059C423 /* Person.m */; };
+		A48CA69626F096BB0059C423 /* Person+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CA69526F096BB0059C423 /* Person+Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		A48CA68726F094CC0059C423 /* CategroyTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CategroyTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48CA68A26F094CC0059C423 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A48CA69126F094E30059C423 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A48CA69226F094E30059C423 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A48CA69426F096BB0059C423 /* Person+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Test.h"; sourceTree = "<group>"; };
+		A48CA69526F096BB0059C423 /* Person+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Test.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				A48CA68A26F094CC0059C423 /* main.m */,
+				A48CA69126F094E30059C423 /* Person.h */,
+				A48CA69226F094E30059C423 /* Person.m */,
+				A48CA69426F096BB0059C423 /* Person+Test.h */,
+				A48CA69526F096BB0059C423 /* Person+Test.m */,
 			);
 			path = CategroyTest;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A48CA69626F096BB0059C423 /* Person+Test.m in Sources */,
+				A48CA69326F094E30059C423 /* Person.m in Sources */,
 				A48CA68B26F094CC0059C423 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
